@@ -1,0 +1,80 @@
+<HTML>
+    <head> 
+        <meta charset="utf-8" />
+        <title>Ejercicio de Menu vertical avanzado</title>
+        <Style src="text\css">
+            span {color:red;}
+            .grupo {font-weight: bold ;}
+            #izquierdo{width: 20%; padding: 1em; border:1em solid red;float: left;}
+            #derecho{width: 45%; padding: 1em;border:1em solid red; float: right;}
+            #alta{padding: 1em;border:1em solid red; float:none}
+        </Style>
+    </head>
+
+    <body>
+        <h1> Formulario de alta</h1>
+        <form id="fcontacte" action="#">
+        <div id="izquierdo" >
+            <div id="nombre">
+                <p class="grupo"> Nombre y Apellidos <span>*</span> </p>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="fname">Nombre</label><br>
+                <input type="text" id="fapellidoP" name="fapellidoP" required><br>
+                <label for="fapellidoP"> Primer Apellido  </label><br>
+                <input type="text" id="fapellidoS" name="fapellidoS" required><br>
+                <label for="fapellidoS"> Segundo Apellido </label><br>
+                
+            </div>
+
+            <div id="contacto1">
+                <p class="grupo"> Email <span>*</span> </p>
+                <input type="email" id="femail" name="femail"><br>
+               
+            </div>
+        </div>
+
+        <div id="derecho"> 
+            <div id="direccion">
+                <p class="grupo"> Dirección <span>*</span> </p>
+                <input type="text" id="fcalle" name="fcalle" required><br>
+                <label for="fcalle">Calle, número, piso, puerta</label><br>
+                <input type="text" id="fCode" name="fCode" required><br>
+                <label for="fCode"> Codigo Postal  </label> <br>
+                <input type="text" id="fmunicipio" name="fmunicipio" required><br>
+                <label for="fmunicipio"> Municipio </label><br><br>
+                
+               
+                <select name="fprovincia" id="fprovincia">
+                        <option value="barcelona">Barcelona</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="LLeida">LLeide</option>
+                        <option value="Girona">Girona</option>
+                </select> <br>
+                <label for="fprovincia"> Provincia </label><br>
+                <select name="fpais" id="fpais">
+                    <option value="España">España</option>
+                    <option value="Espanya">Espanya</option>
+                </select> <br>
+                <label for="fpais"> Pais</label><br><br>
+                
+            </div>
+            <div id="contacto2">
+                <p class="grupo"> Teléfono <span>*</span> </p>
+                <input type="tel" id="ftelfijo" name="ftelfijo"><br>
+                <label for="ftelfijo">Fijo </label><br>
+                
+                <input type="tel" id="ftelmovil" name="ftelmovil"><br>
+                <label  for="ftelmovil">Móvil </label><br>
+            </div>
+        </div>
+            
+            <div id="alta">
+                <button type ="submit" formaction="" formtarget="_blank" > Darme de alta </button>
+            </div>
+        </form>
+    </body>
+
+    
+
+</HTML>
+

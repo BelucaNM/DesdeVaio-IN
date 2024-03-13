@@ -77,24 +77,25 @@ img { border: none; }
  #noticias, #pie {background-color: #F8F8F8; }
  #publicidad {background-color: #FFF6CD; }
  #secundario h2 {background-color: #DB905C; padding: .2em;}
- /*
- #menu{
+ 
+/*#menu{
   background-image: url(fondo_menu.jpg);
 }
  h1{
   background-image: url("logo.jpg");
 }
 */
- /*
+/*
 #menu{
   background-image: url("./logo3.jpg");
   background-size: auto ;}
 #cabecera h1{
     background-image: url("./logo4.jpg");
     background-size: auto ;}
-     /*
-
+     
+*/
  /*EJERCICIO 6*/
+
 
 * {font-family: Arial;font-size: 0.9em; line-height: 1.4;}
 .articulo h2 {font-family: Arial, Helvetica, sans-serif;font-size: 1.6em; color:#CC6600; line-height: 1.2;}
@@ -105,11 +106,14 @@ img { border: none; }
 #lateral *{line-height: 0.9em;}
 .fecha {display:block; color: #999;}
 #noticias h3 {color:#003366}
+#noticias {box-sizing: content-box;}
 #publicidad p {color:#555;}
 #publicidad a {color:#CC6600;}
+
 .articulo a{color:#CC6600;}
 .articulo p{margin-top:0.3em; margin-bottom: 0.3em;}
 #secundario h2{background-color: #DB905C; color: white;}
 #secundario p{color: black;}
 #secundario a{color: blue;}
 .enlaces {color: blue;}
+
