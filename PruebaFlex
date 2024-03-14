@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ejercicio de flex</title>
+<Style>
+    .container {display: flex;}
+</Style>
+</head>
+<body>
+    <div class="container"> <!-- Flex container -->
+        <div class="item item-1">1</div> <!-- Flex items -->
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+      </div>
+</body>
+</html>
