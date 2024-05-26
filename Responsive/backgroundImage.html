@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+/* For width smaller than 600px: */
+body {
+    background-repeat: no-repeat;
+    background-image: url('fondoTela.jpg');
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url('img_flowers.jpg');
+  }
+}
+.header{
+  border: 1px solid #ccc;
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.pie{
+  border: 1px solid #ccc;
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+</div>
+
+<div class = "row ">
+    <p>este es el conntenido del primer cuerpo</p>
+    <p>este es el conntenido del primer cuerpo</p>
+    <p>este es el conntenido del primer cuerpo</p>
+</div>
+
+<div class="pie">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
+</html>
+
+
